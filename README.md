@@ -40,10 +40,15 @@ The project's specific  goal  is  to  create  a  prototype  that  automatically 
     
    <img width="635" alt="Screen Shot 2021-08-04 at 4 17 19 pm" src="https://user-images.githubusercontent.com/57209945/128131378-63ddc50c-393d-4b22-924c-62e90a8c2014.png">
     
-   <img width="766" alt="Screen Shot 2021-08-04 at 4 17 39 pm" src="https://user-images.githubusercontent.com/57209945/128131417-f0c7b529-5930-41fa-8ae3-7cce45a96bc4.png">
-
-
-    
+   <img width="766" alt="Screen Shot 2021-08-04 at 4 17 39 pm" src="https://user-images.githubusercontent.com/57209945/128131417-f0c7b529-5930-41fa-8ae3-7cce45a96bc4.png">   
 
 ## Code and Impeementation details: 
 https://colab.research.google.com/drive/1v7Xt3lRVaODaeDl49wPDOY1oKmb5NcgQ?authuser=3
+
+
+## Evaluation and Results:
+
+  We are using the BLEU evaluation mechanism. BLEU, or the Bilingual Evaluation Understudy, is a score for comparing a candidate translation of the text to one or more reference translations.The trained model is evaluated against a given dataset of image descriptions and image features.The predicted and actual descriptions are collected and evaluated based on the corpus BLEU score,which summarisesthe closeness between the predicted text to the actual one.
+  
+  <img width="662" alt="Screen Shot 2021-08-04 at 4 31 55 pm" src="https://user-images.githubusercontent.com/57209945/128132921-17b209eb-5c8f-4f8c-962e-e3ecb508437c.png">
+
